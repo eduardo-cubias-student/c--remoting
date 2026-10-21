@@ -17,9 +17,10 @@ namespace servidor
 
             TcpChannel canal = new TcpChannel(9998);
             ChannelServices.RegisterChannel(canal, false);
-            Type tipoRemoto = typeof(MovieTicket);
+            Type tipoRemoto = typeof(Moneda);
 
-            RemotingConfiguration.RegisterWellKnownServiceType(tipoRemoto, "MovieTicketService", WellKnownObjectMode.SingleCall);
+
+            RemotingConfiguration.RegisterWellKnownServiceType(tipoRemoto, "MonedaService", WellKnownObjectMode.SingleCall);
 
             Console.WriteLine("Servicio en alto");
             Console.ReadLine();
