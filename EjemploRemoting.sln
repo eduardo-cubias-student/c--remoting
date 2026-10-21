@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cliente", "cliente\cliente.csproj", "{937B27F3-6AD8-46BC-BA49-5294CF8231F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "servidor", "servidor\servidor.csproj", "{E0480118-4482-4479-A7A4-5F6143819AD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comun", "Comun\Comun.csproj", "{2EBC9A85-2BC9-4673-A1EE-0AB0FB15C0B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{937B27F3-6AD8-46BC-BA49-5294CF8231F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{937B27F3-6AD8-46BC-BA49-5294CF8231F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{937B27F3-6AD8-46BC-BA49-5294CF8231F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{937B27F3-6AD8-46BC-BA49-5294CF8231F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0480118-4482-4479-A7A4-5F6143819AD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0480118-4482-4479-A7A4-5F6143819AD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0480118-4482-4479-A7A4-5F6143819AD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0480118-4482-4479-A7A4-5F6143819AD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EBC9A85-2BC9-4673-A1EE-0AB0FB15C0B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EBC9A85-2BC9-4673-A1EE-0AB0FB15C0B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EBC9A85-2BC9-4673-A1EE-0AB0FB15C0B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EBC9A85-2BC9-4673-A1EE-0AB0FB15C0B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0B7E059-F87F-42A6-8A3B-BF22DE5D4B33}
+	EndGlobalSection
+EndGlobal
